@@ -8,3 +8,17 @@ a++ // gives 1
 var a = '1';
 a = a + 1; // gives '11' 
 ```
+
+2. Check string for NaN type
+
+```js
+a = '';
+console.log(a);
+// output: ""
+
+console.log(isNaN(a));
+// output: false
+
+console.log(parseInt(a));
+// output: NaN
+```
